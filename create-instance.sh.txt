@@ -1,0 +1,1 @@
+aws ec2 run-instances --image-id ami-01bc990364452ab3e --count 1 --instance-type t2.micro --key-name dick --security-group-ids sg-0ae2a46396a9a3ebd --subnet-id subnet-0d287456677f5bc42 --user-data file://D:\hometack2\user-data.sh.txt
